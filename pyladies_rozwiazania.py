@@ -75,3 +75,6 @@ for uczestnik in uczestnicy:
     # lista_uczestnikow.append(uczestnik)
 print(lista_uczestnikow)
 
+# Powtórka - zadanie
+# Napisz funkcję, która przyjmuje dwa argumenty, starą i nową listę.
+# która zamienia listę imion uczestników na naziwska.
