@@ -106,10 +106,6 @@ for linia in plik:
     print(x)
 
 
-
-
-
-
 def wczytaj_do_listy_ze_sciezki(sciezka):
     plik_lista = open(sciezka)
     lista = [linia.replace('\n', '') for linia in plik_lista]
@@ -133,7 +129,5 @@ def zamien_imiona_na_nazwiska_ze_sciezki(sciezka_imion, sciezka_nazwisk):
     nowa_lista = zamiana_imion_na_nazwiska(wczytana_lista_imion, wczytana_lista_nazwisk)
     return nowa_lista
 
-zamien_imiona_na_nazwiska_ze_sciezki("lista_imion.txt", "lista_nazwisk.txt")
+print(zamien_imiona_na_nazwiska_ze_sciezki("lista_imion.txt", "lista_nazwisk.txt"))
 
-
-# print(lista_ze_sciezek)

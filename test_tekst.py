@@ -1,8 +1,9 @@
+# https://realpython.com/pytest-python-testing/
 def test_always_passes():
-    assert True
+    assert 17 == 17
 
 # def test_always_fails():
-#     assert False
+#     assert 17 == 18
 
 def test_uppercase():
     assert "loud noises".replace(" ", "-") == "loud-noises"
@@ -14,4 +15,5 @@ def example_fixture_tekst():
     return "Dzis jest pieknie"
 
 def test_with_fixture(example_fixture_tekst):
-    assert example_fixture_tekst.count()  == 20
+    assert len(example_fixture_tekst)  == 17
+
